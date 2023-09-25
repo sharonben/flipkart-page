@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0%;
+    background-color: #e0e0e0;
+}
+
+.main-page{
+    margin: none;
+    overflow-x:hidden ;
+}
+
+
+.top-blue{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #2874f0;
+    margin: 0px;
+    position:fixed;
+    top: 0%;
+
+}
+
+.search-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 20px;
+
+}
+
+
+
+.input-wrapper>input{
+
+    height: 30px;
+    width: 520px;
+    padding: 5px 5px 5px 15px;
+    border: none;
+    outline: none;
+    
+}
+
+.search-img-wrapper{
+    margin-right: 10px;
+}
+
+
+.search-img-wrapper>svg{
+    height: 20px;
+    width: 20px;
+    color: #2874f0;
+}
+.cart-container
+{
+    margin-left: 30px;
+}
+
+.cart-img
+{
+    height: 16px;
+    width: 16px;
+    color: white;
+margin-right: 5px;
+}
+
+.cart-text{
+    
+    color: white;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.more-container
+{
+    margin-left: 30px;
+    display: flex;
+}
+
+.more{
+background-color: #2874f0;
+color: white;
+border: none;
+outline: none;
+font-family: Roboto,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.more-text{
+    margin-right: 5px;
+    color: white;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 600;
+   
+     
+}
+
+.flip-card
+{
+    margin-left: 200px;
+    margin-top: -10px;
+}
+
+.flip-top
+{
+    height: 22px;
+    width: 80px;
+    margin-top: 10px;
+    /* margin-left: 200px; */
+}
+
+
+.explore-plus
+{
+    font-size: 10px;
+    font-style: italic;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 600;
+    margin-top: -7px;
+}
+
+
+.plus-icon
+{
+    margin-top: 3px;
+    height: 10px;
+    width: 10px;
+}
+
+.login-btn
+{
+    background-color: white;
+    color: #2874f0;
+    font-family: Roboto,Arial,sans-serif;
+    height: 30px;
+    width: 130px;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    margin-left: 180px;
+}
+
+.section-1 {
+   
+    height: 16vh;
+    width: 100%;
+    display:flex;
+    background-color: white;
+    justify-content:space-evenly;
+    margin-top: 60px;
+}
+
+.box-container
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+height: 64px;
+    width: 64px;
+    
+}
+.box-container-image
+{
+    height: 64px;
+    width: 64px;
+    margin: 8px;
+}
+
+.box-container-text{
+    
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 540;
+    font-size: 14px;
+}
+
+
+.section-2
+{
+    width: 100%;
+    height: 36vh;
+    background-color: #2874f0;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.sec2-class
+{
+    width: 100%;
+    height: 36vh;
+}
+
+.section-3
+{
+    width: 100%;
+    height: 16vh;
+    background-color: white;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.sec3-class
+{
+    width: 50%;
+    height: 10vh;
+    margin-left: 380px;
+    margin-top: 23px;
+}
+
+.left-one
+{
+    height: 350px;
+    width: 250px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 25px;
+    
+
+}
+
+.right-one
+{
+    height: 350px;
+    width: 67%;
+    background-color: white;
+    display: flex;
+    overflow-y: scroll;
+    
+}
+
+.right-one>div{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.view-all-button
+{
+    background-color: #2874f0;
+    font-family: Roboto,Arial,sans-serif;
+    color: white;
+    height: 36px;
+    width: 90px;
+    font-weight: 600;
+    border: none;
+    border-radius: 1px;
+box-shadow:  5px 5px 12px #bcbcbc,
+             -5px -5px 12px #ffffff;
+}
+.section-4
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+.right-two
+{
+    background-color : white;
+    height: 350px;
+    width: 250px;
+}    
+
+
+.section-5
+{
+    display: flex;
+   
+    height: 37vh;
+    margin-top: 9px;
+    
+
+}
+
+.section-5>div
+{
+
+margin-left: 10px;
+}
+
+.section-6
+{
+    display: flex; 
+    margin-top: -15px;
+}
+
+.section-6>div
+{
+    margin-left: 10px;
+}
+
+.section-7
+{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.sec7-box1
+{
+background-color: white;
+height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 25px;
+}
+
+.view-button-2
+{
+    background-color: #2874f0;
+    font-family: Roboto,Arial,sans-serif;
+    color: white;
+    height: 36px;
+    width: 90px;
+    font-weight: 600;
+    border: none;
+    border-radius: 1px;
+box-shadow:  5px 5px 12px #bcbcbc,
+             -5px -5px 12px #ffffff;
+}
+
+.sec7-box1>div{
+    margin-top: 15px;
+}
+
+.sec7-box2
+{
+    display: flex;
+    background-color:white;
+    height: 350px;
+    width: 80%;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    overflow-y: scroll;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.offer{
+    color: green;
+}
+
+.sec7-box2>div
+{
+display:flex ;
+flex-direction: column;
+align-items: center;
+margin-left: 30px;
+margin-top: 20px;
+
+}
+
+.section-8
+{
+    display: flex;
+    height: 37vh;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.section-8>div{
+    margin-left: 11px;
+}
+
+.section-9
+{
+    margin-top: -10px;
+    width: 100%;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sec9-cards
+{
+display: flex;
+overflow-y: scroll;
+}
+
+.sec9-cards>div{
+    margin-left: 20px;
+    margin-top:23px;
+    
+}
+
+.brand-text{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Roboto,Arial,sans-serif;
+    margin-left: 20px;
+}
+
+.section-10
+{
+    display: flex;
+    height: 33vh;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.section-10>div{
+    display: flex;
+    margin-left: 20px;
+}
+
+.section-11{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+display: flex;
+margin-top: 20px;
+}
+
+.sec-11-leftbox
+{
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+}
+
+
+
+.view-button-3
+{
+    margin-top: 30px;
+    background-color: #2874f0;
+    font-family: Roboto,Arial,sans-serif;
+    color: white;
+    height: 36px;
+    width: 90px;
+    font-weight: 600;
+    border: none;
+    border-radius : 1px;
+box-shadow:  5px 5px 12px #bcbcbc,
+             -5px -5px 12px #ffffff;
+}
+
+.card-container
+{
+    border-radius: 4px;
+background: white;
+width: 300px;
+/* box-shadow:  16px 16px 32px #9b9b9b,
+             -16px -16px 32px #ffffff;
+
+             padding: 10px; */
+}
+
+
+.data-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.data-container>div{
+margin: 3px;
+text-align: center;
+width: 150px;
+}
+
+.sec-11-leftbox>div{
+    margin-top: 15px;
+}
+
+.sec-11-leftbox-pic
+{
+    margin-top: 20px;
+}
+
+.sec-11-rightbox
+{
+    display: flex;
+    overflow-y: scroll;
+}
+
+.section-12
+{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.section-12>div
+{
+    display: flex;
+}
+
+.s12-img-container{
+    background-color: white;
+    height: 140px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.s12-img-container>div
+{
+    margin-top: 10px;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: #2874f0;
+}
+
+.footer-container{
+    background-color: #172337;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.top-footer,.left-footer,.right-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+h3{
+    margin-bottom: 12px;
+}
+.about,.help,.policy,.social{
+    padding: 25px;
+    /* margin-left: 20px; */
+
+}
+
+.about>div,.help>div,.policy>div,.social>div{
+    margin-bottom: 9px; 
+}
+.mail-us>div,.address>div{
+    padding: 0,0,4px,15px;
+    margin-left: 10px;
+}
+.left-footer{
+    margin-right: 10px;
+}
+
+
+.mail-us{
+    border-left: 1px solid #9b9b9b;
+    padding-left: 10px;
+}
+
+.bottom-footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px 0px 0px;
+    border-top: 1px solid #9b9b9b;
+    padding: 25px;
+   
+}
+
+.sell,.advertise,.gift,.help-center{
+    display: flex;
+}
+.sell>div,.advertise>div,.gift>div,.help-center>div{
+    padding: 6px;
+}
